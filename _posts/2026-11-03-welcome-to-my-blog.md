@@ -1,6 +1,6 @@
 ---
 title: Welcome to My Blog
-date: 2026-11-03 09:00:00 +0800
+date: 2026-11-03 00:00:00 +0800
 categories: [Personal, Updates]
 tags: [welcome, writing]
 description: A short introduction to this blog and what I plan to share here.
