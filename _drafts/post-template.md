@@ -8,7 +8,7 @@ math: false
 ---
 
 <!--
-Available tags — copy only the relevant values into `tags` above:
+Available categories — copy one relevant value into `categories` above:
 
 - Life stuff
 - Mathematics
@@ -18,7 +18,10 @@ Available tags — copy only the relevant values into `tags` above:
 - Misc stuff
 
 Example:
-tags: [Mathematics, Competitive Programming]
+categories: [Mathematics]
+
+Tags are intentionally unrestricted. Add any relevant keywords to `tags`, or
+leave the empty list when the post does not need tags.
 -->
 
 Write your post here.

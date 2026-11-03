@@ -40,27 +40,27 @@ description: A one-sentence summary for search results and social previews.
 
 Add the article body below the closing `---`.
 
-### Blog tags
+### Blog categories
 
-Use one or more of these consistent tags in a post's front matter:
-
-```yaml
-tags: [Life stuff]
-tags: [Mathematics]
-tags: [Competitive Programming]
-tags: [Cybersecurity/CTFs]
-tags: [AI]
-tags: [Misc stuff]
-```
-
-For multiple tags, combine them into one list:
+Choose one of these categories in a post's front matter:
 
 ```yaml
-tags: [Mathematics, Competitive Programming]
+categories: [Life stuff]
+categories: [Mathematics]
+categories: [Competitive Programming]
+categories: [Cybersecurity/CTFs]
+categories: [AI]
+categories: [Misc stuff]
 ```
 
-The reusable `_drafts/post-template.md` file contains the same catalog. Chirpy
-automatically creates a tag page after a published post uses that tag.
+Keep tags as an optional, unrestricted list:
+
+```yaml
+tags: []
+```
+
+The reusable `_drafts/post-template.md` file contains the same category catalog.
+Chirpy automatically creates a category page after a published post uses it.
 
 ## Publish with GitHub Pages
 
