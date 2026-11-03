@@ -3,7 +3,7 @@ title: The Gaussian function and its Integral
 date: 2026-11-03 02:00:00 +0800
 categories: [Mathematics]
 tags: []
-description: Derivation of one of the most famous integrals
+description: My first (trial) blog
 math: true
 ---
 
@@ -119,6 +119,9 @@ If we set $x^2 + y^2 = r^2$ for some fixed $r$, we recgonise this as the equatio
 
 ![Countour plot here](/assets/img/posts/gaussian-integral/gaussian-contours.svg){: width="1200" height="750" }
 
+![img-description](/assets/img/posts/gaussian-integral/gaussian-contours.svg)
+The horizontal circles denote (some of the) level curves of the surface
+
 What does this have to with our integration problem. Well, what if there was a way to "change" the term $x^2 + y^2$ to instead be of a new single variable. Let us try substituing $x^2 + y^2$ to the single variable $r^2$! By doing this, we have mapped each point $(x,y)$ to its distance $r$ from the origin.
 
 Of course, $r$ alone does not uniquely determine the original point $(x,y)$. Because we still need another variable to accompany $r$ in this double integral problem.
@@ -219,9 +222,9 @@ $$
 f'(a) = \int_{0}^{\infty} \frac{\partial}{\partial a}\dfrac{e^{-a^2(1+x^2)}}{1+x^2} \ dx \\
 = \int_{0}^{\infty} (-2a)(1+x^2)\dfrac{e^{-a^2(1+x^2)}}{1+x^2} \ dx \\
 = \int_{0}^{\infty} (-2a)e^{-a^2(1+x^2)} \ dx \\
-= \int_{0}^{\infty} (-2a)e^{-a^2(1+x^2)} \ dx \\
-
+= \int_{0}^{\infty} (-2a)e^{-a^2(1+x^2)} \ dx
 $$
+
 $$
 \begin{equation}
 f'(a) = (-2ae^{-a^2})\int_{0}^{\infty} e^{-a^2x^2} \ dx
@@ -256,6 +259,7 @@ $$
 \int_{0}^{\infty} f'(a)\,da = \int_{0}^{\infty}(-2e^{-a^2}) \ J \ da \\
 \left[ f(a) \right]_{0}^{\infty} = -2J \int_{0}^{\infty} e^{-a^2} da \\
 $$
+
 $$
 \begin{equation}\lim_{a \to \infty} (f(a)) - f(0)= -2J^2 \end{equation}
 $$
@@ -266,11 +270,7 @@ From $(9)$, we have:
 
 $$
 0 - \frac{\pi}{2}= -2J^2 \\
-$$
-$$
 J^2 = \frac{\pi}{4} \\
-$$
-$$
 J = \dfrac{\sqrt{\pi}}{2}
 $$
 
@@ -292,6 +292,7 @@ Hopefully more blogs to come.
 $$
 f(a) = \int_{0}^{\infty} \dfrac{e^{-a^2(1+x^2)}}{1+x^2} \ dx
 $$
+
 Claim: $\lim\limits_{a \to \infty} (f(a)) = 0$
 
 Proof:
@@ -308,7 +309,9 @@ $$
 0 \le f(a) \le e^{-a^2} \int_{0}^{\infty} \dfrac{1}{1+x^2} \ dx \\
 0 \le f(a) \le \frac{\pi}{2}e^{-a^2}  \\
 $$
+
 Taking the limits as $a \rightarrow \infty$:
+
 $$
 0 \le \lim_{a \to \infty}f(a) \le 0
 $$
