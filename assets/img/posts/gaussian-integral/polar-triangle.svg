@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+  <title id="title">Polar-coordinate right triangle</title>
+  <desc id="desc">A point x comma y connected to the origin by a radius r at angle theta, with horizontal and vertical legs.</desc>
+  <defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#f0fdfa"/></linearGradient><filter id="ps"><feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#134e4a" flood-opacity=".12"/></filter></defs>
+  <rect width="1000" height="650" rx="28" fill="url(#pbg)"/>
+  <rect x="65" y="52" width="870" height="540" rx="22" fill="#fff" filter="url(#ps)"/>
+  <g transform="translate(180 500)">
+    <path d="M-65 0H700" stroke="#64748b" stroke-width="3"/><path d="M0 55V-390" stroke="#64748b" stroke-width="3"/>
+    <path d="M0 0L555-300V0Z" fill="#ccfbf1" fill-opacity=".7" stroke="#0f766e" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M515 0V-40H555" fill="none" stroke="#475569" stroke-width="3"/>
+    <path d="M105 0A105 105 0 0 0 92-50" fill="none" stroke="#f97316" stroke-width="5"/>
+    <circle cx="555" cy="-300" r="8" fill="#7c3aed"/>
+    <g font-family="Inter,Segoe UI,sans-serif" font-size="25" font-weight="600" fill="#0f172a">
+      <text x="275" y="-180" fill="#0f766e" transform="rotate(-28 275 -180)">r</text>
+      <text x="112" y="-29" fill="#ea580c">θ</text><text x="260" y="40">x = r cos θ</text>
+      <text x="575" y="-140">y = r sin θ</text><text x="572" y="-315" fill="#6d28d9">(x, y)</text>
+      <text x="-15" y="36" font-size="20" fill="#64748b">O</text>
+    </g>
+  </g>
+</svg>

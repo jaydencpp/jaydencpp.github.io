@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Area under a normal density curve between a and b</title>
+  <desc id="desc">A bell curve with the region between a and b shaded to represent probability.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#ecfeff"/></linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#22d3ee" stop-opacity=".85"/><stop offset="1" stop-color="#0891b2" stop-opacity=".25"/></linearGradient>
+    <filter id="shadow2"><feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#164e63" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1200" height="675" rx="28" fill="url(#bg2)"/>
+  <rect x="72" y="58" width="1056" height="552" rx="22" fill="#fff" filter="url(#shadow2)"/>
+  <g stroke="#e2e8f0"><path d="M130 180H1070M130 300H1070M130 420H1070"/><path d="M300 120V535M600 120V535M900 120V535"/></g>
+  <path d="M405 535V436 C475 355 520 175 600 175 C680 175 725 355 775 448 V535Z" fill="url(#shade)"/>
+  <path d="M130 535 C290 532 380 485 445 393 C505 308 540 175 600 175 C660 175 695 308 755 393 C820 485 910 532 1070 535" fill="none" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M120 535H1080" stroke="#64748b" stroke-width="2"/>
+  <g stroke="#0891b2" stroke-width="3" stroke-dasharray="8 8"><path d="M405 535V436"/><path d="M775 535V448"/></g>
+  <g fill="#0f172a" font-family="Inter,Segoe UI,sans-serif">
+    <text x="394" y="570" font-size="24" font-style="italic">a</text><text x="768" y="570" font-size="24" font-style="italic">b</text>
+    <text x="525" y="390" font-size="24" font-weight="700" fill="#155e75">P(a ≤ X ≤ b)</text>
+    <text x="1070" y="568" font-size="18" fill="#64748b">x</text>
+  </g>
+</svg>

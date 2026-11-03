@@ -36,10 +36,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Jayden
-  email: # TODO: add a public email address, or leave blank
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  email: jaydentiew35@gmail.com
   links:
     - https://github.com/jaydencpp
+    - https://www.linkedin.com/in/jayden-tiew-23ab5a2a3/
+
 
 # Site Verification Settings
 webmaster_verifications:

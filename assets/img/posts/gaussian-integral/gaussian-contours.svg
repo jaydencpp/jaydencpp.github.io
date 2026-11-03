@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Level curves on a three-dimensional Gaussian surface</title>
+  <desc id="desc">A translucent Gaussian bell surface with coloured horizontal level curves drawn directly on the surface.</desc>
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fde68a" stop-opacity=".96"/>
+      <stop offset=".28" stop-color="#fb7185" stop-opacity=".90"/>
+      <stop offset=".62" stop-color="#8b5cf6" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity=".68"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#dbeafe" stop-opacity=".78"/><stop offset="1" stop-color="#e0e7ff" stop-opacity=".48"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#1e1b4b" flood-opacity=".18"/>
+    </filter>
+    <clipPath id="bellClip">
+      <path d="M155 574 C260 567 352 534 420 472 C494 405 520 192 600 148 C680 192 706 405 780 472 C848 534 940 567 1045 574 C916 682 284 682 155 574Z"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="750" rx="30" fill="url(#page)"/>
+  <g filter="url(#softShadow)">
+    <ellipse cx="600" cy="592" rx="475" ry="135" fill="url(#ground)" stroke="#94a3b8" stroke-width="2"/>
+    <g stroke="#cbd5e1" stroke-width="1.5" opacity=".75">
+      <ellipse cx="600" cy="592" rx="390" ry="110" fill="none"/>
+      <ellipse cx="600" cy="592" rx="295" ry="83" fill="none"/>
+      <ellipse cx="600" cy="592" rx="195" ry="55" fill="none"/>
+      <path d="M125 592H1075M600 457V727M264 497L936 687M264 687L936 497"/>
+    </g>
+    <path d="M155 574 C260 567 352 534 420 472 C494 405 520 192 600 148 C680 192 706 405 780 472 C848 534 940 567 1045 574 C916 682 284 682 155 574Z" fill="url(#surface)"/>
+    <g clip-path="url(#bellClip)" fill="none" stroke-linecap="round">
+      <ellipse cx="600" cy="545" rx="382" ry="112" stroke="#1d4ed8" stroke-width="8"/>
+      <ellipse cx="600" cy="474" rx="294" ry="88" stroke="#7c3aed" stroke-width="8"/>
+      <ellipse cx="600" cy="382" rx="205" ry="64" stroke="#db2777" stroke-width="8"/>
+      <ellipse cx="600" cy="280" rx="121" ry="39" stroke="#f97316" stroke-width="8"/>
+      <ellipse cx="600" cy="194" rx="57" ry="20" stroke="#facc15" stroke-width="8"/>
+      <g stroke="#fff" stroke-opacity=".36" stroke-width="2">
+        <path d="M155 574 C326 688 505 485 600 148"/>
+        <path d="M302 640 C418 655 548 391 600 148"/>
+        <path d="M600 671V148"/>
+        <path d="M898 640 C782 655 652 391 600 148"/>
+        <path d="M1045 574 C874 688 695 485 600 148"/>
+      </g>
+    </g>
+    <path d="M155 574 C260 567 352 534 420 472 C494 405 520 192 600 148 C680 192 706 405 780 472 C848 534 940 567 1045 574" fill="none" stroke="#312e81" stroke-opacity=".55" stroke-width="3"/>
+  </g>
+  <g stroke="#475569" stroke-width="3" fill="none">
+    <path d="M110 592H1090"/><path d="M600 713V94"/><path d="M250 695L950 489"/>
+  </g>
+</svg>

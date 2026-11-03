@@ -4,20 +4,30 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+## whoami
 Hi, I'm **Jayden**.
 
-I use this space to share what I'm learning, document projects, and turn rough
-notes into ideas that might be useful to someone else. Expect practical writing
-about technology, creative work, and the process behind building things.
+I am a math and tech enthusiast trying to keep my brain sharp during National Service.
 
-## What you'll find here
+I use this space to share and document whatever cool things I'm learning or that I read up. I'm a firm believer that I understand things better by teaching them to other people. So I like to make educational and academic blogs (about stuff outside of usual school curriculum) during my free time.
 
-- Clear walkthroughs and lessons learned from real projects
-- Notes on tools, workflows, and better ways of working
-- Occasional reflections on creativity, curiosity, and continuous learning
+Apart from academic and technical stuff, I might also share whatever interesting things that come to my mind or experiences I face in life.
 
-## Get in touch
+## My Current Interests
 
-The best way to reach me is through the social links in the sidebar. I'm always
-happy to hear thoughtful feedback, swap ideas, or learn what you are working on.
+- Competitive Programming (or Informatics Olympiad)
+- Theoretical Computer Science
+- Mathematics
+- Cybersecurity and CTFs
+- AI
+
+## Just some notes
+
+I might not be the most qualified to discuss some of the topics in my blogs. I am neither the best or strongest at what I like to do (not even close). I just wish to use my blogs as a way to both share my knowledge, my thoughts and opinion on random stuff, and to also be accountable for my own learning journey.
+
+Hence, mistakes might be made and it is also reasonable to disagree with some of my opinions. Of course, feedback is always appreciated.
+
+## Contact
+
+Feel free to reach out to me via [Discord](https://discord.com/users/692356170312187964) or [Email](mailto:jaydentiew35@gmail.com).
 
