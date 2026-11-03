@@ -40,6 +40,28 @@ description: A one-sentence summary for search results and social previews.
 
 Add the article body below the closing `---`.
 
+### Blog tags
+
+Use one or more of these consistent tags in a post's front matter:
+
+```yaml
+tags: [Life stuff]
+tags: [Mathematics]
+tags: [Competitive Programming]
+tags: [Cybersecurity/CTFs]
+tags: [AI]
+tags: [Misc stuff]
+```
+
+For multiple tags, combine them into one list:
+
+```yaml
+tags: [Mathematics, Competitive Programming]
+```
+
+The reusable `_drafts/post-template.md` file contains the same catalog. Chirpy
+automatically creates a tag page after a published post uses that tag.
+
 ## Publish with GitHub Pages
 
 1. Create a GitHub repository and push this project to its `main` branch.
