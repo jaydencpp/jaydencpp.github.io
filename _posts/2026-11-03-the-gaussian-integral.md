@@ -175,6 +175,7 @@ I^2 = \frac{1}{2}\int_{0}^{2 \pi} \int_{-\infty}^{0} e^u\ du \ d\theta \\
 $$
 
 and the result follows:
+
 $$
 I^2 = \pi \\
 \boxed{I = \sqrt \pi}
